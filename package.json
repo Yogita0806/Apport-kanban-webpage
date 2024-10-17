@@ -2,7 +2,7 @@
   "name": "apport-webpage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Yogita0806/Apport-kanban-webpage/settings/pages",
+  "homepage": "https://github.com/Yogita0806/Apport-kanban-webpage",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
