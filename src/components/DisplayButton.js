@@ -43,9 +43,11 @@ const DisplayButton = ({ grouping, sorting, onGroupingChange, onSortingChange })
   return (  
     <div className="display-button-container">  
       <button className="display-button" onClick={() => setIsOpen(!isOpen)}>  
-        <img src="/images/Display.svg" alt="Display" className="display-icon" />  
+        // <img src="/images/Display.svg" alt="Display" className="display-icon" />  
+        <img src={`${process.env.PUBLIC_URL}/images/Display.svg`} alt="Display" className="display-icon" />
         Display  
-        <img src="/images/down.svg" alt="Down" className="down-icon" />  
+        // <img src="/images/down.svg" alt="Down" className="down-icon" /> 
+        <img src={`${process.env.PUBLIC_URL}/images/down.svg`} alt="Down" className="down-icon" />
       </button>  
       {isOpen && (  
         <div className="dropdown-menu">  
@@ -57,7 +59,8 @@ const DisplayButton = ({ grouping, sorting, onGroupingChange, onSortingChange })
                 <option value="user">User</option>  
                 <option value="priority">Priority</option>  
               </select>  
-              <img src="/images/down.svg" alt="Down" className="select-icon" />  
+              // <img src="/images/down.svg" alt="Down" className="select-icon" /> 
+              <img src={`${process.env.PUBLIC_URL}/images/down.svg`} alt="Down" className="select-icon" />
             </div>  
           </div>  
           <div className="dropdown-item">  
