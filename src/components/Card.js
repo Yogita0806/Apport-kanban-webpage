@@ -92,17 +92,19 @@ const Card = ({ ticket, user, grouping }) => {
       </div>  
       <h3 className="card-title">  
         {grouping !== 'status' && (  
-          <img  
-            src={`/images/${getStatusIcon(ticket.status)}`}  
-            alt={ticket.status}  
-            className="status-icon"  
-          />  
+          // <img  
+          //   src={`/images/${getStatusIcon(ticket.status)}`}  
+          //   alt={ticket.status}  
+          //   className="status-icon"  
+          // />  
+          <img src={`${process.env.PUBLIC_URL}/images/${getStatusIcon(ticket.status)}`} alt={ticket.status} className="status-icon" />
         )}  
         {ticket.title}  
       </h3>  
       <div className="card-footer">  
         <div className="priority-tag">  
-          <img src="/images/SVG - Urgent Priority Grey.svg" alt="Priority" className="priority-icon" />  
+          // <img src="/images/SVG - Urgent Priority Grey.svg" alt="Priority" className="priority-icon" />  
+          <img src={`${process.env.PUBLIC_URL}/images/SVG - Urgent Priority Grey.svg`} alt="Priority" className="priority-icon" />
           <span className="tag">{ticket.tag}</span>  
         </div>  
       </div>  
