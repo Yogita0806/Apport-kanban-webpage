@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Yogita0806/Apport-kanban-webpage/static/css/main.2ee5f77a.css",
+    "main.js": "/Yogita0806/Apport-kanban-webpage/static/js/main.8e226122.js",
+    "static/js/453.96d27425.chunk.js": "/Yogita0806/Apport-kanban-webpage/static/js/453.96d27425.chunk.js",
+    "index.html": "/Yogita0806/Apport-kanban-webpage/index.html",
+    "main.2ee5f77a.css.map": "/Yogita0806/Apport-kanban-webpage/static/css/main.2ee5f77a.css.map",
+    "main.8e226122.js.map": "/Yogita0806/Apport-kanban-webpage/static/js/main.8e226122.js.map",
+    "453.96d27425.chunk.js.map": "/Yogita0806/Apport-kanban-webpage/static/js/453.96d27425.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ee5f77a.css",
+    "static/js/main.8e226122.js"
+  ]
+}
